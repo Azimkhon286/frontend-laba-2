@@ -36,3 +36,18 @@
     margin-bottom: 30px;
 }
 
+@media (max-width: 450px) {
+    .Footer__content-container {
+        grid-template-columns: 1fr;
+    }
+    .Footer__column_second {
+        display: none;
+    }
+    .Footer__column {
+        display: none;
+    }
+    .Footer {
+        max-height: 85px;
+        padding: 25px 15px 25px;
+    }
+}

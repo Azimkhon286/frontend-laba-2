@@ -82,3 +82,9 @@
         transform: translateY(-15px);
     }
 }
+
+@media (max-width: 450px) {
+    .Welcome__arrow-down {
+        bottom: 45px;
+    }
+}
